@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Offline Notes App</title>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Tom's Offline Notes</h1>
+        <p>All data will be stored locally in the browser.</p>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Text input area -->
+        <div class="text-container">
+            <textarea id="noteArea"></textarea>
+        </div>
+
+        <!-- Save note button -->
+        <div class="save-button">
+            <button id="saveNote">Save Note</button>
+        </div>
+
+        <!-- Display saved notes -->
+        <div class="notes-grid">
+            <div id="notesList"></div> <!-- Notes will be populated here -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
